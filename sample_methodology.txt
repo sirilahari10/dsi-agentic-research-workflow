@@ -1,0 +1,1 @@
+Data was collected from 300 clinical samples. We first removed rows with missing demographic data. Next, the spectral imaging data was normalized using a standard Z-score approach. Finally, we trained a random forest model to predict the presence of the biomarker, evaluating it using a 5-fold cross-validation, but we haven't written the automated pipeline for this yet.
